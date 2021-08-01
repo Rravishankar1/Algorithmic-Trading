@@ -11,8 +11,8 @@ class MovingAverages(QCAlgorithm):
         """Initializes base conditions: date for backtesting, purchase frequency, coarse data."""
         
         #Data Resolution
-        self.SetStartDate(2015, 1, 7)
-        self.SetEndDate(2018, 1, 7)
+        self.SetStartDate(2011, 1, 7)
+        self.SetEndDate(2015, 1, 7)
         self.SetCash(100000)
         
         # Universe selection model
