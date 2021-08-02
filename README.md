@@ -7,7 +7,7 @@ Simple trading bots that utilize rule based algorithms to engage in live stock m
 Algorithmic trading bots operate utilizing Quant Connect (QC) API or the QC website's LEAN interface. There are currently 2 functioning bots and 1 in development.
 
 The Breakout Strategy bot works by identifying a "breakout," or period of rapid growth and opening positions (buying shares) at these distinguished times. It then creates a market stop (sell order) for when the stock price exceeds a certain value. This closing price is dynamically updated to account for market volatility and ensures that positions are not closed prematurely, at the cost of minor losses when positions do start to fall. The model was backtested through the QC API and measured a 34.68% return on investment.
-<img src="/Breakout.png" width="100">
+<img src="/Breakout.png" width="250">
 ![](/Breakout.png)
 
 The 200-50 Exponential Moving Average (ema) bot uses a simple momentum strategy to purchase when the previous 50 day ema is larger than the previous 200 day ema, indicating a momentum increase in position values. Positions are closed when the 50 day average falls short of the 200 day average. The model was backtested through the QC API and measured a 39.98% return on investment.
