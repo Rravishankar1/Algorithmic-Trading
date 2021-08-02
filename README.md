@@ -1,6 +1,6 @@
 # Algorithmic Trading Bots
 
-Simple trading bots that utilize rule based algorithms to engage in live stock market trades.
+Simple equity trading strategies that utilize rule based algorithms to engage in live stock market trades.
 
 ## Description
 
