@@ -13,7 +13,7 @@ The Breakout Strategy works by identifying a "breakout," or period of rapid grow
 
 The 200-50 Exponential Moving Average (ema) uses a simple momentum strategy to purchase when the previous 50 day ema is larger than the previous 200 day ema, indicating a momentum increase in position values. Positions are closed when the 50 day average falls short of the 200 day average. The model was backtested through the QC API and measured a 39.98% return on investment.
 <p align="center">
-        <img width = "600" height="561" src = "https://raw.githubusercontent.com/Rravishankar1/Algorithmic-Trading/main/200-50ema.png">
+        <img width = "531" height="561" src = "https://raw.githubusercontent.com/Rravishankar1/Algorithmic-Trading/main/200-50ema.png">
 </p>
 
 The Low Exposure, currently being developed, makes far fewer purchases but identifies periods of near guaranteed growth. Positions are opened when the closing price of a stock is below the previous 7 day low and above the 200 day moving average. Positions are then closed when closing price is over the current 7 day high of the equity.
