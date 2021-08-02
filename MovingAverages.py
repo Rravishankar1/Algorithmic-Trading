@@ -10,7 +10,7 @@ class MovingAverages(QCAlgorithm):
     def Initialize(self):
         """Initializes base conditions: date for backtesting, purchase frequency, coarse data."""
         
-        #Data Resolution
+        # Data Resolution
         self.SetStartDate(2011, 1, 7)
         self.SetEndDate(2015, 1, 7)
         self.SetCash(100000)
@@ -99,4 +99,3 @@ class SelectionData():
         """ Updates fast and slow moving average values."""
         self.fast.Update(time, price)
         self.slow.Update(time, price)
-     
