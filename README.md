@@ -6,6 +6,31 @@ Simple trading bots that utilize rule based algorithms to engage in live stock m
 
 Algorithmic trading bots operate utilizing Quant Connect (QC) API or the QC website's LEAN interface. There are currently 2 functioning bots and 1 in development.
 
+<head> 
+        <title>cell padding</title> 
+        <style> 
+            .gfg {
+                width:auto;
+                text-align:center;
+                padding:20px;
+            }
+            img {
+                width: 60%;
+                height: 60%;
+                object-fit: contain;
+            }
+        </style> 
+    </head> 
+    <body> 
+        <div class = "gfg">
+                <p id="my-image"><img src=
+"https://raw.githubusercontent.com/Rravishankar1/Algorithmic-Trading/main/200-50ema.png">
+            </p>
+        </div>
+    </body>
+
+
+
 The Breakout Strategy bot works by identifying a "breakout," or period of rapid growth and opening positions (buying shares) at these distinguished times. It then creates a market stop (sell order) for when the stock price exceeds a certain value. This closing price is dynamically updated to account for market volatility and ensures that positions are not closed prematurely, at the cost of minor losses when positions do start to fall. The model was backtested through the QC API and measured a 34.68% return on investment.
 <p align="center">
   <img src="https://raw.githubusercontent.com/Rravishankar1/Algorithmic-Trading/main/200-50ema.png" />
