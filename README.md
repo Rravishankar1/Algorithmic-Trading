@@ -30,7 +30,7 @@ The Low Exposure, currently being developed, makes far fewer purchases but ident
 
 * Can be backtested within range of available data (see Quant Connect API docs)
 * Market strategy can also be run through live data or paper trading alternative
-* 
+ 
 * To change start and end date
 ```
 self.SetStartDate(year, month, day)
