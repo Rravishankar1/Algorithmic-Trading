@@ -99,3 +99,5 @@ class SelectionData():
         """ Updates fast and slow moving average values."""
         self.fast.Update(time, price)
         self.slow.Update(time, price)
+
+        
