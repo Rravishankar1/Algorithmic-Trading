@@ -28,7 +28,12 @@ The Low Exposure, currently being developed, makes far fewer purchases but ident
 
 ### Executing program
 
-* Can be backtested within range of available data (see Quant Connect API docs)
+* Run through Quant Connect website:
+* Copy and paste one of the above strategies into a "New Algorithm"
+* Make possible modifications from list below
+* Run backtest to see analysis
+
+* Can be backtested within range of available data (see [Quant Connect docs](https://www.quantconnect.com/docs/home/home))
 * Market strategy can also be run through live data or paper trading alternative
  
 * To change start and end date
@@ -46,8 +51,9 @@ self.symbol = self.AddEquity("Equity Name", Resolution.Frequency).Symbol
 ```
 
 
-## Version History
+## Additional Notes
+
+### Version History
 
 * Upload 200-50 EMA and Breakout
 * Low Exposure model in progress
-
