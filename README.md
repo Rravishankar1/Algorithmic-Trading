@@ -21,37 +21,30 @@ The Low Exposure bot, currently being developed, makes far fewer purchases but i
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Run through [Quant Connect website](https://www.quantconnect.com/terminal/)
+* Can also be downlaoded locally and run through [LEAN](https://www.lean.io/#topic100.html) 
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Can be backtested within range of available data (see Quant Connect API docs)
+* Market strategy can also be run through live data or paper trading alternative
+* 
+* To change start and end date
 ```
-code blocks for commands
+self.SetStartDate(year, month, day)
+self.SetEndDate(year, month, day)
+```
+* To change initial cash amount
+```
+self.SetCash('USD Amount')
+```
+*  To change equity being traded and trade rate
+```
+self.symbol = self.AddEquity("Equity Name", Resolution.Frequency).Symbol
 ```
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
