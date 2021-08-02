@@ -63,7 +63,7 @@ class BreakoutStrategy(QCAlgorithm):
         elif self.lookback < self.floor:
             self.lookback = self.floor
         
-        # Establish historical highs for period of lookback
+        # Establish highs for period of lookback
         self.high = self.History(self.symbol, self.lookback, Resolution.Daily)["high"]
         
         # Purchase if conditions met (no existing positions and breakout in progress)
