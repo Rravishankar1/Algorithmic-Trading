@@ -16,8 +16,8 @@ class BreakoutStrategy(QCAlgorithm):
         """
         
         # Data Resolution
-        self.SetStartDate(2005,1,1)
-        self.SetEndDate(2015,1,1)
+        self.SetStartDate(2011,1,7)
+        self.SetEndDate(2015,1,7)
         self.SetCash(100000)
         self.symbol = self.AddEquity("SPY", Resolution.Daily).Symbol
         
